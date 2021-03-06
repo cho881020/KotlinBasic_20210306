@@ -11,6 +11,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        testBtn2.setOnClickListener {
+            Log.e("메인화면로그", "테스트2 눌림")
+        }
+
         testBtn1.setOnClickListener {
 
 //            Ctrl + / : 코드에 메모 (주석) 남기기
@@ -21,6 +25,8 @@ class MainActivity : AppCompatActivity() {
 
 
         }
+
+
 
     }
 
